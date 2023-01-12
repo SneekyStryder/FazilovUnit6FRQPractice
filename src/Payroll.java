@@ -33,7 +33,7 @@ public class Payroll
             sum += num;
         }
 
-        return (double) (sum - most - least) / itemsSold.length - 2;
+        return (double) (sum - most - least) / (itemsSold.length - 2);
 
     }
 
